@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact form for the Cold Carti fan community.">
+    <title>Cold Carti | Связь</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="main-header">
+    <div class="header-inner">
+        <a class="logo" href="index.html" aria-label="Cold Carti home">
+            <span class="logo-mark">CC</span>
+            <span>Cold Carti</span>
+        </a>
+        <nav aria-label="Основная навигация">
+            <ul class="nav-menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="tour.html">Афиша</a></li>
+                <li><a href="about.html">О проекте</a></li>
+                <li><a class="active" href="contact.html">Связь</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<aside class="sidebar">
+    <div class="sidebar-inner">
+        <p class="sidebar-label">Archive / 04</p>
+        <h2>Связь</h2>
+        <p>Форма для участников фан-сообщества. Поля аккуратно перестраиваются на мобильном экране.</p>
+        <div class="side-links">
+            <a href="#form">Форма</a>
+            <a href="tour.html">Афиша</a>
+            <a href="about.html">О проекте</a>
+        </div>
+    </div>
+</aside>
+
+<main class="page-main">
+    <div class="content-wrap">
+        <p class="eyebrow">Community contact</p>
+        <h1>ОСТАВАЙСЯ<br>НА СВЯЗИ</h1>
+        <p class="intro-text">Заполни форму, чтобы присоединиться к сообществу слушателей и получать новости о релизах и выступлениях.</p>
+
+        <section class="contact-layout" id="form">
+            <div class="contact-note">
+                <p class="eyebrow">Why join?</p>
+                <h2>Комьюнити</h2>
+                <p>Обсуждения релизов, новости, фан-архив и обновления афиши в одном месте.</p>
+                <strong>Ответ</strong>
+                <p>Мы стараемся отвечать на сообщения максимально быстро.</p>
+            </div>
+
+            <form action="#" method="get" class="booking-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Твоё имя</label>
+                        <input type="text" id="name" name="name" placeholder="Имя" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="name@example.com" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="album">Любимый релиз</label>
+                    <select id="album" name="album">
+                        <option value="weak">Всегда ненавидел быть слабым</option>
+                        <option value="eyes">Моими глазами</option>
+                        <option value="sorry">Тебе жаль это слышать</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Пару слов о музыке</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Что тебе нравится в музыке Cold Carti?"></textarea>
+                </div>
+
+                <button type="submit" class="btn primary">Отправить</button>
+            </form>
+        </section>
+    </div>
+</main>
+
+<footer>
+    <p>Team Members: Kanatov Sabyrzhan, Alikhan Zhaxylyk</p>
+    <p class="footer-tag">Assignment 2 / Flexbox + Grid</p>
+</footer>
+</body>
+</html>
